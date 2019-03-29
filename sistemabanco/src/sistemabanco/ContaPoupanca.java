@@ -12,7 +12,7 @@ public class ContaPoupanca {
     private double saldo=0;
     private String nomeCliente;
     
-    public ContaPoupanca(String numConta, String numAgencia, String saldo, String nomeCliente){
+    public ContaPoupanca(String numConta,String nomeCliente, String saldo, String numAgencia){
         this.numAgencia = Integer.parseInt(numAgencia);
         this.saldo = Double.parseDouble(saldo);
         this.nomeCliente = nomeCliente;
