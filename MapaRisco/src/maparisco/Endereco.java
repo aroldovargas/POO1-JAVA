@@ -8,9 +8,9 @@ package maparisco;
 import javax.swing.JOptionPane;
 
 /**
- *
  * @author Aroldo
  */
+
 public class Endereco {
     public String nomeRua;
     public String nomeBairro;
@@ -19,15 +19,8 @@ public class Endereco {
     public String toString(){
         
         return "Endereço: " + nomeRua + "," + nomeBairro + "," + nomeCidade;
-        
     }
-    public void getEndereco(){
-        nomeRua = JOptionPane.showInputDialog("Rua:");
-        nomeBairro = JOptionPane.showInputDialog("Bairro:");
-        nomeCidade = JOptionPane.showInputDialog("Cidade:");
-        JOptionPane.showMessageDialog(null,"Endereço: " + nomeRua + ", " + nomeBairro + ", " + nomeCidade);
-    }
-
+  
     public String getNomeRua() {
         return nomeRua;
     }
